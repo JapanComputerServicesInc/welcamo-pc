@@ -90,7 +90,7 @@ appjs.submitWithConfirm = function(name, action, method, index, title, field, me
     $(appjs.FIELD.MODAL_CONFIRM.MESSAGE).text(message);
 
     // モーダル表示
-    $("#modal-confirm").modal();
+    $(appjs.FIELD.MODAL_CONFIRM.MODAL).modal();
 };
 
 /** 
