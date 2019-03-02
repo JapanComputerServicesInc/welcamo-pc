@@ -28,20 +28,20 @@ PCのみでの利用可能
 * Carbon（標準ライブラリ）
 
 # .env編集項目
-APP_NAME=WELCAMO
-APP_ENV=production
-APP_KEY=（環境にあわせて設定）
-APP_DEBUG=false
-APP_LOG_DIR=（ログ出力先ディレクトリを指定）
-APP_URL=（URLを設定：例）http://welcamo.com）
-DEBUGBAR_ENABLED=false
+* APP_NAME=WELCAMO
+* APP_ENV=production
+* APP_KEY=（環境にあわせて設定）
+* APP_DEBUG=false
+* APP_LOG_DIR=（ログ出力先ディレクトリを指定）
+* APP_URL=（URLを設定：例）http://welcamo.com）
+* DEBUGBAR_ENABLED=false
 
-DB_CONNECTION=mysql
-DB_HOST=（ホスト名を設定）
-DB_PORT=（DBポート名を設定）
-DB_DATABASE=（DB名）
-DB_USERNAME=（DB接続ユーザー）
-DB_PASSWORD=（DB接続パスワード）
+* DB_CONNECTION=mysql
+* DB_HOST=（ホスト名を設定）
+* DB_PORT=（DBポート名を設定）
+* DB_DATABASE=（DB名）
+* DB_USERNAME=（DB接続ユーザー）
+* DB_PASSWORD=（DB接続パスワード）
 
 # Remarks
 * 実利用環境ではHTTPS（SSL）アクセスにしてください。
