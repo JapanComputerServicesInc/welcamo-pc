@@ -2,7 +2,7 @@
 -- DB作成用
 -- ********************************************************
 CREATE DATABASE IF NOT EXISTS welcamo DEFAULT CHARACTER SET utf8;
-CREATE USER 'welcamo'@'%' IDENTIFIED BY 'LYpJHHYx';
+CREATE USER 'welcamo'@'%' IDENTIFIED BY 'U95z8uBMgHMZ';
 GRANT ALL PRIVILEGES ON welcamo.* TO 'welcamo'@'%';
 
 -- :: 開発用 ::
@@ -44,7 +44,7 @@ DROP TABLE IF EXISTS users;
 CREATE TABLE IF NOT EXISTS users
 (
     id                       INT                       NOT NULL AUTO_INCREMENT COMMENT 'ユーザーID',
-    email                    VARCHAR(254)                     L COMMENT 'E-Mailアドレス',
+    email                    VARCHAR(254)                       COMMENT 'E-Mailアドレス',
     user_name                VARCHAR(20)               NOT NULL COMMENT 'ユーザー名',
     password                 VARCHAR(255)              NOT NULL COMMENT 'パスワード',
     remember_token           VARCHAR(100)                       COMMENT 'リメンバートークン',
